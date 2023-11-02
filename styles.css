@@ -1,0 +1,61 @@
+@font-face {
+    font-style: normal;
+    font-weight: 500;
+    scr: url("LabGrotesque-Regular") format('woff2');
+    font-family: 'LabGrotesque';
+    font-display: swap;
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 400; /*500*/
+    scr: url('LabGrotesque-Medium') format('woff2');
+    font-family: 'LabGrotesque';
+    font-display: swap;
+}
+
+body {
+    font-size: 16px;
+    font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.name{
+    color: darkorange;
+    position: fixed;
+    left: 40px;
+}
+
+.information{
+    top: 16px;
+    position:absolute;
+    left: 70%;
+}
+
+.contact{
+    color: darkorange;
+    border: none;
+    background: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.hello{
+    color: white;
+    position: fixed;
+    left: 43%;
+    top: 40%;
+}
+
+.text{
+    letter-spacing: 2px;
+}
+
+.photo{
+    border-radius: 1000px;
+    border: 5px solid darkorange;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
