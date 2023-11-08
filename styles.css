@@ -1,7 +1,7 @@
 @font-face {
     font-style: normal;
     font-weight: 500;
-    scr: url("LabGrotesque-Regular") format('woff2');
+    src: url("LabGrotesque-Regular.woff2") format('woff2');
     font-family: 'LabGrotesque';
     font-display: swap;
 }
@@ -9,53 +9,230 @@
 @font-face {
     font-style: normal;
     font-weight: 400; /*500*/
-    scr: url('LabGrotesque-Medium') format('woff2');
+    src: url('LabGrotesque-Medium.woff2') format('woff2');
     font-family: 'LabGrotesque';
     font-display: swap;
 }
 
-body {
-    font-size: 16px;
-    font-family: LabGrotesque, Arial, Helvetica, sans-serif;
-    background-color: black;
+body{
+    background-repeat: no-repeat;
 }
 
-.name{
-    color: darkorange;
-    position: fixed;
-    left: 40px;
+@media screen and (max-width: 4000px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
+    .name{
+        color: darkorange;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 70%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        position: absolute;
+        left: 43%;
+        top: 40%;
+        border: 5px solid grey;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+    }
+
+    .text{
+        color: darkorange;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        height:554px;
+        width: 277px
+    }
+
 }
 
-.information{
-    top: 16px;
-    position:absolute;
-    left: 70%;
+@media screen and (max-width: 1711px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
+    .name{
+        color: darkorange;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 60%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        color: white;
+        position: absolute;
+        left: 43%;
+        top: 40%;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+    }
+
+    .text{
+        color: darkorange;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        height:554px;
+        width: 277px
+    }
+
 }
 
-.contact{
-    color: darkorange;
-    border: none;
-    background: none;
-    cursor: pointer;
-    vertical-align: middle;
+@media screen and (max-width: 1283px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
+    .name{
+        color: darkorange;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 50%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        color: white;
+        position: absolute;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+    }
+
+    .text{
+        color: darkorange;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        height: 554px;
+        width: 277px
+    }
+
 }
 
-.hello{
-    color: white;
-    position: fixed;
-    left: 43%;
-    top: 40%;
-}
+@media screen and (max-width: 1026px){
 
-.text{
-    letter-spacing: 2px;
-}
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
 
-.photo{
-    border-radius: 1000px;
-    border: 5px solid darkorange;
-    position: absolute;
-    top: 40%;
-    left: 5%;
+    .name{
+        color: darkorange;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        color: white;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        font-size: 30px;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+    }
+
+    .text{
+        color: darkorange;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        height:1108px;
+        width: 554px
+    }
 
 }
